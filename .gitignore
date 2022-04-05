@@ -1,3 +1,9 @@
+# authentication credentials
+google_client_info.json
+
+#Documentation
+Documentation.txt
+
 # Logs
 logs
 *.log
