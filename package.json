@@ -1,0 +1,30 @@
+{
+  "name": "inventory",
+  "version": "1.0.0",
+  "description": "inventory management system",
+  "main": "app.js",
+  "repository": "https://github.com/AvishkaRodrigo/Inventory_Management_System-MERN.git",
+  "author": "Avishka Rodrigo <avish.rodrigo11@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "nodemon --exec babel-node src/app.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11"
+  },
+  "dependencies": {
+    "connect-mongo": "^4.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.2.10",
+    "passport": "^0.5.2",
+    "passport-google-oauth20": "^2.0.0",
+    "pino": "^7.9.2",
+    "pino-pretty": "^7.6.0"
+  }
+}
